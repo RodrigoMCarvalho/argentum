@@ -8,7 +8,7 @@ import br.com.alura.argentum.model.Candlestick;
 import br.com.alura.argentum.model.CandlestickFactory;
 import br.com.alura.argentum.model.Negociacao;
 
-public class TestCandlestickFactory {
+public class CandlestickFactoryTest {
 
 	public static void main(String[] args) {
 
