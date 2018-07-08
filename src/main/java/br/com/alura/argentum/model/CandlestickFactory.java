@@ -25,4 +25,9 @@ public class CandlestickFactory {
 		}
 		return new Candlestick(abertura, fechamento, maximo, minimo, volume, data);
 	}
+
+	public List<Candlestick> constroiCandle(List<Negociacao> negociacoes) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
