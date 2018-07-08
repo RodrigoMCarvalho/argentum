@@ -75,9 +75,9 @@ class NegociacaoTest {
 		CandlestickFactory factory = new CandlestickFactory();
 		List<Candlestick> candlesticks = factory.constroiCandle(negociacoes);
 		
-		Assert.assertTrue(negociacoes.get(0).isMesmoDia(hoje));
-		Assert.assertTrue(negociacoes.get(1).isMesmoDia(amanha));
-		Assert.assertTrue(negociacoes.get(2).isMesmoDia(depois));
+		Assert.assertTrue(negociacoes.get(0).isMesmoDia(candlesticks.get(0).getData()));
+		Assert.assertTrue(negociacoes.get(1).isMesmoDia(candlesticks.get(1).getData()));
+		Assert.assertTrue(negociacoes.get(2).isMesmoDia(candlesticks.get(2).getData()));
 		
 		
 		
